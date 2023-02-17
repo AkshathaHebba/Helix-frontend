@@ -1,0 +1,39 @@
+.Banner__Container {
+    width: 100%;
+    position: relative;
+    margin-top: 90px;
+    margin-bottom: 10px;
+    background-color: #969696;
+    border-radius: 32px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 85px 0;
+    flex-wrap: wrap;
+    align-content: center;
+    align-items: center;
+}
+
+@media only screen and (max-width: 768px) {
+    .Banner__Container {
+        margin-top: 30px;
+        margin-bottom: 0;
+    }
+}
+
+.Banner__Image {
+    max-width: 69px;
+    max-height: 69px;
+    margin: auto 0;
+    display: block;
+}
+
+.Banner__HeadingText {
+    font-style: normal;
+    font-family: 'Rubik', sans-serif ;
+    font-weight: 700;
+    font-size: 2rem;
+    line-height: 40px;
+    color: #34324C;
+    margin: auto 30px;
+}

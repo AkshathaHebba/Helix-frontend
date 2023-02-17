@@ -1,0 +1,118 @@
+.Modal__Backdrop {
+    background: black;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.2;
+    z-index: 1;
+}
+
+.Modal__Container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    z-index: 2;
+}
+
+.Modal__Wrapper {
+    z-index: 2;
+    max-width: 600px;
+    height: 600px;
+    background-color: white;
+    color: black;
+    transition: box-shadow 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+    border-radius: 25px;
+    box-shadow: rgb(0 0 0 / 20%) 0px 11px 15px -7px, rgb(0 0 0 / 14%) 0px 24px 38px 3px, rgb(0 0 0 / 12%) 0px 9px 46px 8px;
+    background-image: linear-gradient(rgba(255, 255, 255, 0.16), rgba(255, 255, 255, 0.16));
+    margin: 32px;
+    position: relative;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+    max-height: calc(100% - 64px);
+    margin: 100px auto;
+}
+
+.Modal__Header {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-content: center;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 0 20px;
+}
+
+.Modal__CloseButton {
+    border-radius: 25px;
+    border: 2px solid #6074DD;
+    color: #6074DD;
+    background: white;
+}
+
+.Modal__Divider {
+    border: 1px solid #DEDEDE;
+    margin-bottom: 24px;
+}
+
+.Modal__Input {
+    margin-bottom: 20px;
+}
+
+.Modal__HeaderText {
+    line-height: 28px;
+    text-align: center;
+    color: #34324C;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 28px;
+    text-align: center;
+    color: #34324C;
+}
+
+.Modal__TextSubmitContainer {
+    height: 100%;
+    border-bottom: none;
+    border-radius: 20px;
+}
+
+.Modal__TextAreaContainer {
+    height: 80%;
+    border: 1px solid #dadada;
+    border-radius: 20px 20px 0 0;
+}
+
+.Modal__TextAreaFieldContainer {
+    height: 90%;
+}
+
+.Modal__TextAreaField {
+    border: none !important;
+    border-radius: 20px !important;
+    width: 100%;
+    height: 100%;
+}
+
+.Modal__ActionsContainer {
+    border: 1px solid #dadada;
+    border-top: none;
+    border-radius: 0 0 20px 20px;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.Modal__ErrorMessageContainer {
+    color: #d61a3f;
+    margin: auto;
+}
+
+
+

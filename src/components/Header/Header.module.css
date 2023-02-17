@@ -1,0 +1,24 @@
+.Header__Container {
+    background-color: #D9D9D9;
+    width: 100%;
+}
+
+.Header__Wrapper {
+    margin: auto;
+    max-width: 1050px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    align-content: center;
+    flex-wrap: wrap;
+    padding: 26px 50px;
+}
+
+.Header__Button {
+    padding: 10px 10px;
+    background-color: #1e8cde;
+    color: white;
+    border: 1px solid #57aeef;
+    border-radius: 25px;
+    float: right;
+}

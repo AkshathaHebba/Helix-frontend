@@ -1,0 +1,20 @@
+.Col__Container {
+    display: flex;
+    flex: 1;
+    width: 100%;
+    flex-wrap: wrap;
+    align-content: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.Col__FlexSize-2 {
+    flex: 2;
+}
+
+@media only screen and (max-width: 768px) {
+    .Col__FlexSize-2 {
+        flex: auto;
+    }
+}

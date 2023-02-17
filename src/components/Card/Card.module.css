@@ -1,0 +1,14 @@
+.Card__Container {
+    width: 100%;
+    background: white;
+    border-radius: 25px;
+    padding: 24px;
+}
+
+.Card__Heading {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 32px;
+}

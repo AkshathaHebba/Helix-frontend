@@ -1,0 +1,32 @@
+.AboutCard__Heading {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 32px;
+}
+
+.AboutCard__Item {
+    display: flex;
+    width: 100%;
+    margin-top: 24px;
+}
+
+.AboutCard__ItemIcon {
+    align-content: center;
+    text-align: center;
+    vertical-align: center;
+    max-width: 23px;
+    max-height: 20px;
+    margin: auto 0;
+}
+
+.AboutCard__ItemText {
+    margin-left: 10px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #51646D;
+}
